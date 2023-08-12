@@ -1,0 +1,46 @@
+body{
+    height: 90vh;
+}
+.emoji{
+    font-size: 4rem;
+    margin-left: 3rem;
+}
+
+.barrier{
+    font-size: 5rem;
+    color: rgb(231, 102, 102);
+    position: absolute;
+    right: 0;
+    animation: none;
+}
+
+.main{
+    height: 50vh;
+    position: relative;
+    border-bottom: 3px solid green;
+}
+
+@keyframes move {
+    0%{
+         left: 80rem;
+    }
+    100%{
+        left: -40px;
+    }
+}
+
+@keyframes jump {
+    0%{
+        margin-bottom: 0;
+    }
+    30%{
+        margin-bottom: 7rem;
+    }
+    70%{
+       margin-bottom: 7rem;
+    }
+
+    100%{
+         margin-bottom: 0;
+    }
+}
